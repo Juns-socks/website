@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      h1{
+        text-align:center;
+        color: indianred;
+        text-shadow: 1px 1px 1.2px midnightblue;
+        font-size: 80px
+      }
+      form {
+        border: 2px solid black;
+        margin: auto;
+        width:50%;
+        height:30%;
+        padding-top:12%;
+        text-align: center;
+        letter-spacing: 0.5em;
+      }
+      .madeby{
+        text-align: right;
+      }
+      body{
+        height: 100vh;
+        background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoeIE7%2FbtqCEOjglYY%2FLbm6l1WBxFxlsKK1SrApDK%2Fimg.jpg');
+        background-repeat : no-repeat;
+        background-size : cover;
+      }
+      a{
+        text-decoration-line: none;
+      }
+      a:link{
+        color:blue;
+      }
+      a:visited{
+        color:blue;
+      }
+      .보러가기{
+        letter-spacing: -0.15em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>오늘의 운세</h1>
+    <div class="madeby">
+      made by 이준석<br><br>
+    </div>
+
+    <form action="/examples/media/action_target.php" method="get">
+         이름 :  <input type="text" name="st_name"><br><br>
+      생년월일: <input type="text" name="st_id"><br><br>
+
+      <div class="보러가기">
+        <a href="운세6.html">운</a>
+        <a href="운세5.html">세</a>
+        <a href="운세1.html">보</a>
+        <a href="운세2.html">러</a>
+        <a href="운세3.html">가</a>
+        <a href="운세4.html">기</a>
+        <a href="운세7.html">!</a>
+        <a href="운세8.html">!</a>
+      </div>
+    </form>
+
+  </body>
+</html>
